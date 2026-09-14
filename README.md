@@ -27,6 +27,23 @@ Includes Latin letters, numerals, punctuation, and additional symbols. See the f
 
 The desktop file is preserved byte-for-byte from the font used in Best Friends. The WOFF2 is generated from that file and retains its glyph outlines, spacing, names, and character map. Vector outlines are included; color and pixelation are supplied by the host application.
 
+## Install with a coding assistant
+
+Copy this prompt into your coding assistant:
+
+```text
+Install AWhite Headline in this project using its existing framework and typography conventions.
+
+Download and bundle the appropriate font from release v1.0.0:
+- Native/desktop TTF: https://github.com/andrew-dougie/awhite-headline/releases/download/v1.0.0/AWhite-Headline.ttf
+- Web WOFF2: https://github.com/andrew-dougie/awhite-headline/releases/download/v1.0.0/AWhite-Headline.woff2
+- License: https://raw.githubusercontent.com/andrew-dougie/awhite-headline/v1.0.0/OFL.txt
+
+The family is "AWhite Headline", italic style, weight 800. For iOS, add AWhite-Headline.ttf to UIAppFonts and use the actual PostScript name AWhiteHeadline-Italic. Include OFL.txt and preserve the upstream Plus Jakarta Sans, Gumpita Rahayu and Tokotype attribution.
+
+Add a reusable headline font definition and a small preview. Use the font's existing italic outlines rather than synthesizing an extra italic style. Verify the font loads from bundled assets and renders uppercase/lowercase text. Explain the changed files and how to use it.
+```
+
 ## Web usage
 
 ```css
