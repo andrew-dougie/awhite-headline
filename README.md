@@ -2,7 +2,7 @@
 
 An extra-bold italic sans-serif font. This repository packages the locally named AWhite Headline derivative of Plus Jakarta Sans. Available as TTF and WOFF2.
 
-![AWhite Headline specimen: menu labels, uppercase and lowercase letters, numbers and punctuation](docs/specimen.svg)
+![AWhite Headline specimen using an excerpt from Blood Meridian](docs/specimen.svg)
 
 ## Download
 
@@ -72,7 +72,7 @@ Add `AWhite-Headline.ttf` to the target’s resources and list it under `UIAppFo
 
 ```swift
 label.font = UIFont(name: "AWhiteHeadline-Italic", size: 28)
-label.text = "Return to main menu"
+label.text = "His feet are light and nimble."
 ```
 
 ## Packaging and verification
@@ -88,6 +88,6 @@ python tools/verify-font.py
 
 The included desktop font supplies the outlines. The tools export WOFF2, generate the README specimen, and verify both formats. An editable font-design project or outline generator is not included.
 
-## Attribution and license
+## Attribution and font license
 
 Copyright 2020 The Plus Jakarta Sans Project Authors. The embedded metadata credits Gumpita Rahayu and Tokotype. [Upstream project](https://github.com/tokotype/PlusJakartaSans). Licensed under the **[SIL Open Font License 1.1](OFL.txt)**. Retain the included copyright and license when redistributing the font. No Reserved Font Names are declared in the included license.
